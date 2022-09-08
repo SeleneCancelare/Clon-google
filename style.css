@@ -1,0 +1,131 @@
+body {
+    position: relative;
+}
+
+
+header {
+    display: flex;
+    justify-content: end;
+    padding: 1em;
+
+}
+
+header>nav>ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+}
+    
+header>nav>ul>li {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 5em;
+
+}
+
+header>nav>ul>li>a { 
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif; color: black;
+
+}
+
+main>span {
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    justify-content: center;
+    padding: 17px
+
+}
+main>span>button {
+    margin: 10px;
+        
+}
+
+
+.boton1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 8em;
+    background-color: rgb(53, 73, 184);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+main {
+    position: relative;
+    width: auto;
+    padding: 4em;
+
+}
+
+main>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form {
+    display: block;
+    margin: 0px;
+    border: 1px;
+    border-style: solid;
+    width: 500px;
+    height: 40px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    height: 6em;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(225, 220, 220) ;
+}
+
+.div3 {
+    margin-left: 3em;
+
+}
+
+
+ul {
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.grande {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 10px;
+}
+
+a {
+    padding-inline: 5px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif ;color: black;
+   
+}
+
+
+.ofrecido {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
